@@ -1,0 +1,312 @@
+/**'Nunito'**/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+/**'Share Tech Mono', monospace**/
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+ 
+body{
+    ;font-weight: 700;
+    font-style: bold;
+}
+  
+.act_online{
+    color:green;
+}
+ 
+
+
+
+.panel.work-progress-table > .panel-heading {
+background: none repeat scroll 0 0 #efefef;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+-ms-border-radius: 0;
+-o-border-radius: 0;
+border-radius: 0;
+color: #333333;
+float: left;
+font-family: roboto;
+font-size: 18px;
+font-weight: normal;
+letter-spacing: 0.3px;
+padding: 17px 30px 11px;
+width: 100%;
+}
+.work-progress-table > .panel-heading > i {
+color: #888888;
+float: left;
+font-family: Lato;
+font-size: 11px;
+font-style: normal;
+letter-spacing: 0.3px;
+line-height: 10px;
+margin-bottom: 10px;
+margin-top: 7px;
+width: 100%;
+}
+
+.panel-default > .panel-heading > .dropdown {
+float: right;
+margin-top: -42px;
+}
+
+/* Work Progress table */
+.panel.work-progress-table {
+    border: medium none;
+    
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    
+    box-shadow: none;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+.panel.work-progress-table > .panel-heading {
+    background: none repeat scroll 0 0 #efefef;
+    
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+    
+    color: #333333;
+    float: left;
+    font-family: roboto;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    padding: 17px 30px 11px;
+    width: 100%;
+}
+.work-progress-table > .panel-heading > i {
+    color: #888888;
+    float: left;
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    letter-spacing: 0.3px;
+    line-height: 10px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    width: 100%;
+}
+.panel-default > .panel-heading > .dropdown {
+    float: right;
+    margin-top: -42px;
+}
+.work-progress-table td .progress {
+    background: none repeat scroll 0 0 #f3f3f3;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    
+    height: 6px;
+    margin: 7px 0 0;
+    overflow: visible;
+}
+.work-progress-table td .progress > .progress-bar {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    
+    position: relative;
+}
+.work-progress-table td .progress > .progress-bar > span {
+    background: none repeat scroll 0 0 #8d8d8d;
+
+    font-family: Roboto;
+    font-size: 10px;
+    height: 18px;
+    line-height: 18px;
+    margin-top: -9px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 31px;
+}
+.work-progress-table .table td {
+    padding: 15px 10px;
+}
+.work-progress-table .table td {
+    font-family: Lato;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    padding: 15px 10px;
+}
+
+.red, .support-ticket .removed, .edit-remove > li > .remove, .friend-list li > span.offline:before {
+background: -moz-linear-gradient(top, #ff5959 0%, #ff3b3b 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3b3b), color-stop(100%,#f9f9f9));
+background: -webkit-linear-gradient(top, #ff5959 0%,#ff3b3b 100%);
+background: -o-linear-gradient(top, #ff5959 0%,#ff3b3b 100%);
+background: -ms-linear-gradient(top, #ff5959 0%,#ff3b3b 100%);
+background: linear-gradient(to bottom, #ff5959 0%,#ff3b3b 100%);
+color: #fff;
+}
+tr{
+        border-bottom: 1px solid #ddd!important;
+
+}
+img{
+        border-radius: 50%;
+}
+
+ 
+
+
+body
+{
+    background: #f3f4f8;
+    color: #374049;
+}
+.wrapper
+{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.06);
+}
+.wrapper .navbar
+{
+    position: relative;
+}
+.title-1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 16px;
+    color: #374049;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+.wrapper .navbar .profile_wrap
+{
+    /* padding: 25px; */
+    text-align: center;
+}
+.wrapper .navbar .profile_wrap .profile_img
+{
+    width: 70px;
+    margin: 0 auto 10px;
+    display: block;
+}
+.wrapper .navbar .profile_wrap .profile_img img
+{
+    width: 100%;
+}
+.wrapper .navbar .profile_wrap .profile_info .name
+{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #30373f;
+}
+.wrapper .navbar .profile_wrap .profile_info .role
+{
+    font-weight: 600;
+    font-size: 15px;
+    color: #90959b;
+}
+
+.wrapper .navbar ul
+{
+    padding: 10px 40px;
+}
+.wrapper .navbar ul li > a
+{
+    display: block;
+    position: relative;
+    font-size: 14px;
+    padding: 15px;
+    height: 50px;
+    color: #9ca0a5;
+    font-weight: 600;
+    transition: all 1s ease;
+}
+.wrapper .navbar ul li a .icon
+{
+    margin-right: 10px;
+}
+.wrapper .navbar ul li a > span
+{
+    display: inline-block;
+}
+a.active .icon,
+a:hover .icon
+{
+    color: #ffad41;
+}
+a.active .title_2,
+a:hover .title_2
+{
+    color: #374049;
+    font-weight: 800;
+}
+
+
+.navbar ul li:nth-child(2) > a:hover .icon
+{
+    color: royalblue;
+}
+.navbar ul li:nth-child(3) > a:hover .icon
+{
+    color: #01ec3f;
+}
+.navbar ul li:nth-child(4) > a:hover .icon
+{
+    color: #ff375c;
+}.navbar ul li:nth-child(5) > a:hover .icon
+{
+    color: #41ffed;
+}.navbar ul li:nth-child(6) > a:hover .icon
+{
+    color: #ff5100;
+}.navbar ul li:nth-child(7) > a:hover .icon
+{
+    color: #e65aff;
+}.navbar ul li:nth-child(8) > a:hover .icon
+{
+    color: #ff4141;
+}
+
+@media (min-width: 992px){
+.col-md-12 {
+    width: 96%!important;
+}
+}
+
+
+
+
+
+
+
